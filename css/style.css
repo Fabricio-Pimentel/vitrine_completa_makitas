@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+
+}
+
+    #logo {
+        padding-left: 20px;
+    }
+
+    #menu {
+       gap: 30px;
+    }
+
+
+h1 {
+    color: white;
+}
+
+a {
+    color: goldenrod;
+}
