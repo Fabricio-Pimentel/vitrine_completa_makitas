@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #082758;
+}
+    
+#menu {
+    gap: 30px;
+    display: flex;
+    padding-right: 40px ;
+}
+
+#logo {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+h1 {
+    color: white;
+}
+
+a {
+    color: black;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#introducao {
+    background-color: rgba(98, 135, 255, 0.178);
+    padding: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#cards {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 30px;
+    background-color: #f4f0e6;
+    gap: 30px;
+}
+
+.cardsecundario {
+    flex-wrap: nowrap;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4 {
+    padding: 10px;
+    text-align: left;
+}

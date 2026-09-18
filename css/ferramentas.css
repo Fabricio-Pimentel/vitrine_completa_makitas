@@ -17,8 +17,8 @@ header {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-color: darkblue;
-     padding: 20px;
+     background-color: #082758;
+     padding: 30px;
 }
 
 #logo {
@@ -41,7 +41,7 @@ h1 {
 a {
     color: black;
     background-color: gold;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -109,11 +109,13 @@ h2 {
 }
 
 footer {
-     hr {
-        margin: 30px;
-     }
-    small {
-        margin: 40px;
-        color: rgb(70, 70, 70);
-    }
+    background-color: #082758;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+small {
+    color: white;
 }
