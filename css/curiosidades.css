@@ -45,23 +45,67 @@ h2 {
     padding: 10px;
 }
 
-#cards {
-    display: flex;
-    justify-content:center ;
+#curiosidades{
     align-items: center;
     padding: 30px;
     background-color: #f4f0e6;
+}
+
+#cards {
+    background-color: rgba(135, 206, 250, 0.301);
+    display: flex;
+    padding: 30px;
     gap: 30px;
 }
 
+#texto {
+    span {
+        padding: 10px;
+        color: lightskyblue;
+    }
+}
+
 .cardsecundario {
-    flex-wrap: nowrap;
-    background-color:white;
-    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+#cardprincipal {
+    p {
+        text-align: center;
+    }
+}
+
+#cardprincipal img {
+    border-radius: 10px;
+    height: 400px;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 10px;
+    
 }
 
 h4 {
     padding: 10px;
     text-align: left;
+    font-size: 20px;
+}
+
+
+#rodape {
+    background-color: #082758;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+small {
+    color: white;
+    display: flex;
 }

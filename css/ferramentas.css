@@ -108,14 +108,16 @@ h2 {
     width: 30%;
 }
 
-footer {
+#rodape {
     background-color: #082758;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+    gap: 20px;
 }
 
 small {
     color: white;
+    display: flex;
 }

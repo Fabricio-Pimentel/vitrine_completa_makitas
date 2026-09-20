@@ -40,9 +40,8 @@ a {
     background-color:rgba(98, 135, 255, 0.178);
     justify-content: center;
     align-items: center;
-    gap: 50px;
     padding-left: 30px;
-    flex-wrap: nowrap;
+    gap: 50px;
 
     p {
         padding: 20px;
@@ -57,10 +56,21 @@ a {
     }
 }
 
-#introducao img {
-    width: 500px;
-    padding: 30px;
-    border-radius: 12px;
+#imagem {
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    p {
+        text-align: center;
+        background-color: gold;
+    }
+}
+
+#imagem img {
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 h2 {
@@ -70,7 +80,8 @@ h2 {
 
 #titulocards {
     background-color: #f4f0e6;
-    padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 h3 {
@@ -80,7 +91,9 @@ h3 {
 
 #cards {
     background-color: #f4f0e6; 
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -88,7 +101,7 @@ h3 {
 
     p {
         text-align: center;
-        padding: 0px;
+        padding: 10px;
     }
 }
 
@@ -116,14 +129,17 @@ h5 {
     padding: 10px;
 }
 
-footer {
+
+#rodape {
     background-color: #082758;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+    gap: 20px;
 }
 
 small {
     color: white;
+    display: flex;
 }
