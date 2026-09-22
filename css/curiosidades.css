@@ -11,7 +11,7 @@ header {
     padding: 30px;
     background-color: #082758;
 }
-    
+
 #menu {
     gap: 30px;
     display: flex;
@@ -58,24 +58,23 @@ h2 {
     gap: 30px;
 }
 
-#texto {
-    span {
-        padding: 10px;
-        color: lightskyblue;
-    }
+#texto span {
+    padding: 10px;
+    color: lightskyblue;
+    font-size: 30px;
 }
+
 
 .cardsecundario {
     background-color: white;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    width: 100%;
 }
 
-#cardprincipal {
-    p {
-        text-align: center;
-    }
+#cardprincipal p {
+    text-align: center;
 }
 
 #cardprincipal img {
@@ -86,11 +85,11 @@ h2 {
 h3 {
     font-size: 25px;
     padding: 10px;
-    
+
 }
 
 h4 {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
     font-size: 20px;
 }
@@ -108,4 +107,9 @@ h4 {
 small {
     color: white;
     display: flex;
+}
+
+span {
+    color: goldenrod;
+    font-weight: bold;
 }

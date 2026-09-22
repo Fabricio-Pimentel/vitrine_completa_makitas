@@ -60,22 +60,21 @@ h2 {
     flex-wrap: nowrap;
     gap: 50px;
     padding: 30px;
-
-    #serra {
-        width: 300px;
-        height: 300px
-    }
 }
 
+#serra {
+    width: 300px;
+    height: 300px
+}
 
 #titulocards {
     padding-left: 40px;
     padding-top: 20px;
-
-    h3 {
-        font-size: 50px;
-    }
  }
+
+h3 {
+    font-size: 50px;
+}
 
 #cards {
     display: flex;
@@ -84,17 +83,18 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     padding: 40px;
+}
 
-    h4 {
-        padding-left: 10px;
-        font-size: 20px;
-        font-weight: bold;
-    }
+#card p {
+    padding: 10px;
+    color: rgb(105, 103, 103);
+}
 
-    p {
-        padding: 10px;
-        color: rgb(105, 103, 103);
-    }
+h4 {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .card img {
