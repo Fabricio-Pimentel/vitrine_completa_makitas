@@ -88,6 +88,8 @@ h2 {
 h3 {
     font-size: 30px;
     padding-top: 5px;
+    font-weight: bold;
+    color: rgb(133, 109, 1);
 }
 
 #cards {
