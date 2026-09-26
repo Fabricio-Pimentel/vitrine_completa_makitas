@@ -83,6 +83,8 @@ h2 {
     background-color: #f4f0e6;
     padding-left: 50px;
     padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 h3 {
@@ -90,6 +92,10 @@ h3 {
     padding-top: 5px;
     font-weight: bold;
     color: rgb(133, 109, 1);
+}
+
+#numero h3 {
+    padding-right: 50px;
 }
 
 #cards {
